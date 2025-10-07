@@ -15,7 +15,7 @@ mkdir http2
 3. Запускаем два python-сервера с разными портами. Один с портом 8888, другой с портом 9999
 
 
-global
+	# global
 	log /dev/log	local0
 	log /dev/log	local1 notice
 	chroot /var/lib/haproxy
