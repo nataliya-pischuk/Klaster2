@@ -35,7 +35,7 @@ mkdir http2
 
 #### sudo nano /etc/haproxy/haproxy.cfg
 2. Вношу изменения. Указываю веса у серверов и указываю домен example.local
-  ![alt text](img/haproxy.cfg.JPG)
+  ![alt text](img/haproxy2.JPG)
  
   Перезагружаю сервис
  #### sudo systemctl reload haproxy
