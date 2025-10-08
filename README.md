@@ -36,8 +36,8 @@ mkdir http2
 #### sudo nano /etc/haproxy/haproxy.cfg
 2. Вношу изменения. Указываю веса у серверов и указываю домен example.local
   ![alt text](img/haproxy.cfg.JPG)
+ 
   Перезагружаю сервис
-  
  #### sudo systemctl reload haproxy
 
 3. Отправляю запрос к домену example.local и получаю балансировку по весу серверов:
