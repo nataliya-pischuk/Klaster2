@@ -42,7 +42,7 @@ mkdir http2
 
 3. Отправляю запрос к домену example.local и получаю балансировку по весу серверов:
    #### [curl -H 'Host:example.local' http://127.0.0.1:8088]
-  ![alt text](img/rez.JPG)
+  ![alt text](img/rez.jpg)
  
   ![alt text](img/stat3.JPG)
   
