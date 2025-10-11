@@ -49,5 +49,5 @@ mkdir http2
  https://github.com/nataliya-pischuk/Klaster2/blob/main/img/haproxy2.cfg
 
  
-5. Если сделать запрос без указания хоста указанного в настройках, то возникает ошибка
+5. Если сделать запрос без указания хоста, то возникает ошибка
      ![alt text](img/error.JPG)
