@@ -35,7 +35,8 @@ mkdir http2
 
 #### sudo nano /etc/haproxy/haproxy.cfg
 2. Вношу изменения. Указываю веса у серверов и указываю домен example.local
-  ![alt text](img/haproxy2.JPG)
+Файл для настройки HAProxy
+ https://github.com/nataliya-pischuk/Klaster2/blob/main/img/haproxy2.cfg
  
   Перезагружаю сервис
  #### sudo systemctl reload haproxy
@@ -46,9 +47,6 @@ mkdir http2
   ![alt text](img/rez.jpg)
  
   ![alt text](img/stat3.JPG)
-4. Файл для настройки HAProxy
- https://github.com/nataliya-pischuk/Klaster2/blob/main/img/haproxy2.cfg
-
  
-5. Если сделать запрос без указания хоста, то возникает ошибка
+4. Если сделать запрос без указания хоста, то возникает ошибка
      ![alt text](img/error.JPG)
