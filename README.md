@@ -18,7 +18,7 @@ mkdir http2
   ![alt text](img/server2.JPG)
   ![alt text](img/otvet.JPG)
 4. В соответствии с уловиями лекциии прозводим настройку файла haproxy.cfg
-   https://github.com/nataliya-pischuk/Klaster2/img/haproxy.cfg
+   https://github.com/nataliya-pischuk/Klaster2/blob/main/img/haproxy.cfg
    
 5. Проверяем в браузере страницу со статистикой, всё работает.
   ![alt text](img/stat.JPG)
