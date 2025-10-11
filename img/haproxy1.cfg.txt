@@ -43,10 +43,10 @@ listen stats  # веб-страница со статистикой
 
 frontend example  # секция фронтенд
         mode http
-        bind :8088
+        bind :85
         #default_backend web_servers
-		acl ACL_example.local hdr(host) -i example.local
-		use_backend web_servers if ACL_example.local
+		acl ACL_example hdr(host) -i example.local
+		use_backend web_servers if ACL_example
 
 backend web_servers    # секция бэкенд
         mode http
@@ -62,4 +62,5 @@ backend web_servers    # секция бэкенд
 #	bind :1325
 
 #	server s1 127.0.0.1:8888 check inter 3s
+
 #	server s2 127.0.0.1:9999 check inter 3s
