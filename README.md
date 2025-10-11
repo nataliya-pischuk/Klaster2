@@ -47,5 +47,7 @@ mkdir http2
   ![alt text](img/stat3.JPG)
 4. Файл для настройки HAProxy
  https://github.com/nataliya-pischuk/Klaster2/blob/main/img/haproxy2.cfg
+
+ 
 5. Если сделать запрос без указания хоста указанного в настройках, то возникает ошибка
      ![alt text](img/error.JPG)
