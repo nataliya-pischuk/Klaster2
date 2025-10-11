@@ -41,7 +41,8 @@ mkdir http2
  #### sudo systemctl reload haproxy
 
 3. Отправляю запрос к домену example.local и получаю балансировку по весу серверов:
-   #### [curl -H 'Host:example.local' http://127.0.0.1:8088]
+   Для разделения с первым заданияем поменяла порт на 85
+   #### [curl -H 'Host:example.local' http://127.0.0.1:85]
   ![alt text](img/rez.jpg)
  
   ![alt text](img/stat3.JPG)
